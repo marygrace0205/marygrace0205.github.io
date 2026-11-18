@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+.mainHeading {
+    color: #6b03fc;
+    border: solid; 
+}
+
+.mainHeading2 {
+    color:#6b03fc;
+}
+
+.mainHeading3 {
+    color:#6b03fc;
+}
+
+li {
+    font-style: italic;
+}
+
+#main-title {
+    color:#6b03fc;
+    
+}
+
+#undermainHeading {
+    font-size: 24px; 
+
+}

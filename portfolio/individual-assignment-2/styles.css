@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2e9;
+    color: #3e302b;
+    margin: 0;
+}
+
+header {
+    background-color: #c99574;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+nav {
+    background-color: #56433d;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 30px;
+}
+
+h2 {
+    color: #795548;
+}
+
+.featured-albums {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.album {
+    width: 170px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.album:hover {
+    transform: translateY(10px) scale(1.1);
+}
+
+.album-cover {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.cover-one {
+    background-color: #a16d56;
+}
+
+.cover-two {
+    background-color: #393939;
+}
+
+.cover-three {
+    background-color: #768c7d;
+}
+
+.cover-four {
+    background-color: #86b4c4;
+}
+
+.cover-five {
+    background-color: #325c65;
+}
+
+.album h3 {
+    font-size: 16px;
+}
+
+.album p {
+    font-size: 14px;
+}
+
+.album-info {
+    visibility: hidden;
+}
+
+.album:hover .album-info {
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #c99574;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+footer {
+    background-color: #56433d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.about-store {
+    position: relative;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #cccccc;
+}
+
+.record-note {
+    float: right;
+    width: 140px;
+    background-color: #e8d1bd;
+    padding: 15px;
+    margin: 25px 0 15px 20px;
+    text-align: center;
+}
+
+.store-label {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+    color: #795548;
+}
+
